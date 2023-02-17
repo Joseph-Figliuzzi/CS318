@@ -1,0 +1,50 @@
+h3{
+    color:rgb(218, 146, 12);
+}
+h4{
+    color:pink
+}
+ol{
+    background-color:rgba(6, 6, 100, 0.527);
+ }
+h1{
+    background-color:rgb(4, 150, 65)
+}
+
+ol{
+    font-weight:bold;
+}
+p{
+    font-weight:lighter
+}
+h4{
+    text-align: center
+}
+p{
+    text-align:center
+}
+ol{
+    padding:8rem 0rem 3rem 22rem;
+}
+h2{
+    padding:0rem 2rem;
+}
+
+h3{
+    margin: 1rem 12rem;
+}
+h1{
+    margin: 0rem 6rem;
+}
+p{
+    font-family: cursive;
+}
+h1, h2, h3{
+    font-family: 'Trebuchet MS';
+}
+ol{
+    font-size: large;
+}
+p{
+    font-size: smaller;
+}
