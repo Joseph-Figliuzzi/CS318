@@ -9,10 +9,9 @@ body{
 header{
 	background-color: rgba(39, 33, 60, .70);
 	display: flex;
-	flex-direction: column-reverse;
+    flex-direction: column-reverse;
     align-items: center;
 }
-
 
 nav>a{
 	color: #e2512d;
@@ -20,7 +19,6 @@ nav>a{
 	padding: 1rem 2rem;
 	font-weight: 900;
 	display: inline-block;
-    
 }
 
 nav>a:hover{
@@ -32,7 +30,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 0;
+    z-index: 1;
 }
 
 .animal-background{
@@ -63,16 +61,21 @@ section{
 }
 
 .sloth>h2{
-    background-image: url("images/sloth.jpg");;
+    background-image: url("images/sloth.jpg");
 }
 
 .elephant>h2{
-    background-image: url("images/elephant.jpg");;
+    background-image: url("images/elephant.jpg");
 }
 
 .owl>h2{
-    background-image: url("images/owl.jpg");;
+    background-image: url("images/owl.jpg");
 }
+
+.sloth>h2, .elephant>h2, .owl>h2 {
+    min-height: 50rem;
+    background-size: cover;
+  }
 
 article{
     padding: 1rem;
@@ -151,7 +154,7 @@ section>h2{
     nav{
         position: absolute;
         color: #e2512d;
-        left: 50%;
+        left: 0%;
     }
     
     article{
