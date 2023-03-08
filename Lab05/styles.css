@@ -29,7 +29,7 @@ header>nav>a{
 }
 
 header>nav{
-    padding: 0rem, 0rem, 1rem, 1rem;
+    padding: 0rem, 0rem, 1rem, 1rem;/*The commas are breaking the padding, just spaces between values*/
 }
 
 header>nav>a:hover{
