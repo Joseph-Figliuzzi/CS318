@@ -3,6 +3,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
   }
  
  
@@ -11,14 +12,15 @@ header {
      width: auto;
  }
  
- nav{
-    background-color: black;
-    margin: .5rem;
- }
+ 
  
  nav>a{
+   background-color: black;
     font-size: larger;
-    color: #fff;
+    color: #cccccc;
+    margin: .5rem 2rem;
+    padding: 3px;
+    display: inline-block;
  }
  
  
@@ -28,15 +30,26 @@ header {
     height: 1000px;
     margin-bottom: .5%;
     z-index: -1;
- }
- 
- 
- .street>h2{
-    z-index: 1;
     text-align: center;
-    color: #fff;
  }
  
+ .street > a {
+   position: absolute;
+   top: 50%;
+   left: 44%;
+   z-index: 1;
+   text-align: center;
+   color: #cccccc;
+   font-size: 35px;
+ }
+ 
+
+ #menu {
+   text-align: center;
+}
+#menu ul{
+   list-style-position: inside;
+}
  .dinner {
    text-align: center;
 } 
@@ -44,57 +57,26 @@ header {
    list-style-position: inside;
 }
  
- 
-.beer, .dinner, .dessert, .specialty{
-   background-color: #cccccc;
- }
 
- section{
-    display: block;
- }
-
- article{
-    display: inline-block;
- }
-
- 
- 
- 
-
- 
- 
- .country> img{
-    display: flex;
-    justify-content: space-evenly;
- }
- 
-
-.street>h2{
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-}
 
 
 
 article{
-    display: inline-block;
+   background-color: #cccccc;
+   display: inline-block;
+   vertical-align: top;
 }
 
-section> .desserts{
-    display: inline-block;
+
+#ourstory{
+   text-align: center;
+   width: 50%;
+   margin: 0 auto;
 }
 
-#menu {
-    text-align: center;
-}
+.country{
+   display: flex;
+   justify-content:space-around;
+   margin: 1 auto;
 
-#menu ul{
-    list-style-position: inside;
 }
-
-.country> img{
-    display: block;
-    margin: 10;
-}
-
