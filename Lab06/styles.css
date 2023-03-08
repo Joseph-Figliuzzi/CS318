@@ -1,0 +1,29 @@
+header{
+    background-image:url("images/Jungle.jpg");
+    background-size: 10%;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+h1{
+    color: #fff;
+    font-weight: bolder;
+}
+nav>a{
+    color: #fff;
+    font-weight: bolder;
+}
+
+p:hover{
+    
+    font-size: x-large;
+    background-image:url("images/Jungle.jpg");
+    color: #fff;
+    background-size: 40%;
+}
+
+.monkey div{
+    font-size: x-large;
+    background-image:url("images/monkey_pic.jpg");
+    color: #fff;
+    background-size: 40%;
+}

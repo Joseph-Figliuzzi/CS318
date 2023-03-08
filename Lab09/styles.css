@@ -23,7 +23,7 @@ header {
  
  
  .street{
-    background-image: url("images/streetview.jpg");
+  background-image: url("images/streetview.jpg");
     background-size: cover;
     height: 1000px;
     margin-bottom: .5%;
@@ -68,3 +68,33 @@ header {
     justify-content: space-evenly;
  }
  
+
+.street>h2{
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+article{
+    display: inline-block;
+}
+
+section> .desserts{
+    display: inline-block;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu ul{
+    list-style-position: inside;
+}
+
+.country> img{
+    display: block;
+    margin: 10;
+}
+
