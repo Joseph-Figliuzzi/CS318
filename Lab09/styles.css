@@ -6,13 +6,10 @@ header {
     justify-content: space-around;
   }
  
- 
  header> .logo{
     height: 100px;
      width: auto;
  }
- 
- 
  
  nav>a{
    background-color: black;
@@ -22,7 +19,6 @@ header {
     padding: 3px;
     display: inline-block;
  }
- 
  
  .street{
   background-image: url("images/streetview.jpg");
@@ -39,18 +35,14 @@ header {
    left: 44%;
    z-index: 1;
    text-align: center;
-   color: #cccccc;
+   color: black;
    font-size: 35px;
  }
- 
 
- #menu {
-   text-align: center;
-}
-#menu ul{
-   list-style-position: inside;
-}
- .dinner {
+
+ .dinner{
+   display: flex;
+  justify-content: center;
    text-align: center;
 } 
 .dinner ul{
@@ -63,8 +55,16 @@ header {
 
 article{
    background-color: #cccccc;
-   display: inline-block;
    vertical-align: top;
+}
+
+
+
+div{
+   background-color: #cccccc;
+   margin-bottom: .5rem;
+   display: flex;
+   flex-direction: row;
 }
 
 
@@ -72,11 +72,27 @@ article{
    text-align: center;
    width: 50%;
    margin: 0 auto;
+   min-width: 100%;
 }
 
 .country{
    display: flex;
    justify-content:space-around;
-   margin: 1 auto;
-
+   margin-top: 1rem;
 }
+
+.country>img{
+   max-width: 50%;
+   min-width: 50%;
+}
+
+
+#desserts>img, #drinks>img, #beers>img{
+   max-width: 45%;
+   min-width: 45%;
+   max-height: auto;
+   min-height: auto;
+}
+
+
+ 
