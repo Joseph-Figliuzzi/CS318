@@ -57,7 +57,7 @@ nav{
 main{
     padding: 1rem;
 }
-
+/*Delete the > that is why your images are stretching beyond the edge of the page*/
 main>img{
     max-width: 100%;
     margin: .5rem 0;
