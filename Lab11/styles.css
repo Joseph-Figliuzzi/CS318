@@ -34,7 +34,7 @@ form{
     width: 50rem;
     max-width:calc(90% - 4rem);
 }
-
+/*The selector setup for the inputs isn't correct. They should be input[type=text], input[type=email], etc...*/
 Text, email, date, number, color{
     font-size: 1.25rem;
     width: calc(100% - 1rem);
@@ -42,20 +42,20 @@ Text, email, date, number, color{
     padding: .5rem;
     border-radius: .25rem;
 }
-
+/*Same issue with the selector here*/
 color{
     width: 4rem;
     height: 4rem;
     border-radius: 2rem;
 }
-
+/*When using a pseudo class with a selector for input they need to be setup this way input:focus[type=text], input:focus[type=email], etc...*/
 #focus
 text, email, date, number, color{
     background-color: black;
     color: #fff;
     outline: none;
 }
-
+/*Same issue with the selector here*/
 reset, submit{
     font-family: Eater, cursive;
     font-size: 1.5rem;
@@ -64,21 +64,21 @@ reset, submit{
     border: 3px solid yellowgreen;
     margin: 1rem, 2rem, 0, 0;
 }
-
+/*Same issue with the selector here*/
 Submit{
     background-color: yellowgreen;
 }
-
+/*Same issue with the selector here*/
 Reset{
     background-color: black;
     font: yellowgreen;
 }
-
+/*When using a pseudo class with a selector for input they need to be setup this way input:hover[type=text], input:hover[type=email], etc...*/
 Hover submit{
     background-color: black;
     font: yellowgreen;
 }
-
+/*When using a pseudo class with a selector for input they need to be setup this way input:hover[type=text], input:hover[type=email], etc...*/
 Hover reset{
     color: black;
     background-color: red;
