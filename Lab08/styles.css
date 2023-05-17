@@ -46,7 +46,7 @@ header{
 
 section>h2{
     text-align: center;
-    padding: 13rem, 0;/*Commas are breaking this*/
+    padding: 13rem 0;/*Commas are breaking this*/
     text-shadow: 2px 2px 2px #27213C;
     background-size: cover;
     margin: 0;
@@ -116,7 +116,7 @@ span.rotate{
 .sidelink{
     background-color: #27213C;
     color: #fff;
-    padding: 1rem, 2rem;/*remove the commas*/
+    padding: 1rem 2rem;/*remove the commas*/
     text-decoration: none;
     position: fixed;
     transform: rotate(90deg);
