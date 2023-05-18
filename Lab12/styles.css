@@ -36,6 +36,5 @@ table{
     background-color: #022502;
 }
 tr:hover{
-    /*The property should be background-color*/
-    backface-visibility: #D8D8B6;
+    background: #D8D8B6;
 }
